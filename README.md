@@ -1,11 +1,13 @@
 # GavinHosts
 
 ## 简介
+
 本项目旨在让从未接触过路由自动翻墙的你，5分钟轻松简单的搞定路由自动翻墙，并且一次部署后，从此每日自动更新以适应GFW的封锁变化。
 
 让路由器自动翻墙被越来越多的人所期望，方法也多种多样，本项目所使用的方法为：利用路由器的DNSMasq功能，指定一份自动更新的Hosts列表，让路由下的所有设备都能访问到正确的网站IP，避免被墙。
 
 ## Hosts内容
+
 支持出墙的网站：
 
 * Google 家族（包括 YouTube，Gmail，Google+，Google Drive 等）
@@ -34,11 +36,15 @@ mkdir /jffs/hosts/ && cd /jffs/hosts/ && wget http://hosts.gav1n.com/start.sh &&
 
 * 执行命令：
 
-> mkdir /tmp/jffs
+```
+mkdir /tmp/jffs
+```
 
 * 在管理-命令 处，输入：
 
-> mount --bind /tmp/jffs /jffs
+```
+mount --bind /tmp/jffs /jffs
+```
 
 保存为启动指令，重启路由。
 
