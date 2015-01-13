@@ -8,7 +8,7 @@
 ## Hosts内容
 支持出墙的网站：
 
-* Google 家族（包括 YouTube，Gmail，Google+，Google Drive 等）Youtube可能有些地区无法播放视频
+* Google 家族（包括 YouTube，Gmail，Google+，Google Drive 等）
 * OneDrive
 * Wikipedia
 * Facebook
@@ -32,9 +32,13 @@ mkdir /jffs/hosts/ && cd /jffs/hosts/ && wget http://hosts.gav1n.com/start.sh &&
 
 *选做 没有jffs空间的路由，请先完成以下两步后再执行上面的命令：*
 
-* 执行命令：> mkdir /tmp/jffs
+* 执行命令：
 
-* 在管理-命令 处，输入：> mount --bind /tmp/jffs /jffs
+> mkdir /tmp/jffs
+
+* 在管理-命令 处，输入：
+
+> mount --bind /tmp/jffs /jffs
 
 保存为启动指令，重启路由。
 
